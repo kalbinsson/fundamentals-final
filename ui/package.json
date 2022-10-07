@@ -1,5 +1,9 @@
 {
     "name": "pets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kalbinsson/fundamentals-final.git"
+    },
     "version": "1.0.0",
     "description": "UI for Pets App",
     "main": "src/server.js",
