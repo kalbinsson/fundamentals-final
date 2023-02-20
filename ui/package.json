@@ -1,9 +1,5 @@
 {
     "name": "pets",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kalbinsson/fundamentals-final.git"
-    },
     "version": "1.0.0",
     "description": "UI for Pets App",
     "main": "src/server.js",
@@ -13,8 +9,8 @@
         "start": "node src/server.js"
     },
     "dependencies": {
-        "axios": "^1.1.1",
         "express": "^4.14.1",
-        "mustache-express": "^1.2.4"
+        "mustache-express": "^1.2.4",
+        "request": "^2.81.0"
     }
 }
