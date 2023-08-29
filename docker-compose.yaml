@@ -1,0 +1,21 @@
+version: "3.1"
+
+services:
+  database:
+    image: kalbinsson/mydb
+    networks:
+    - back-tier
+  api:
+    image: kalbinsson/myapi
+    networks:
+    - front-tier
+    - back-tier
+  ui:
+    image: kalbinsson/myui
+    ports:
+    - "3000:3000"
+    networks:
+    - front-tier
+networks:
+  front-tier:
+  back-tier:
